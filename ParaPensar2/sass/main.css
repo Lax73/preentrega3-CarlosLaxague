@@ -1,0 +1,32 @@
+.preguntasFrecuentes {
+  text-align: center;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  padding: 2rem;
+}
+.preguntasFrecuentes .preguntasFrecuentes__articulo1 {
+  background-color: #e4405f;
+  border-style: none;
+  border-radius: 2rem;
+}
+.preguntasFrecuentes .preguntasFrecuentes__articulo1 h2 {
+  font-size: 4.8rem;
+  color: var(#e4405f);
+}
+.preguntasFrecuentes .preguntasFrecuentes__articulo1 p {
+  font-size: 2rem;
+  color: var(#55acee);
+}
+.preguntasFrecuentes .preguntasFrecuentes__articulo2 {
+  background-color: #55acee;
+  border-style: none;
+  border-radius: 2rem;
+}
+.preguntasFrecuentes .preguntasFrecuentes__articulo2 h2 {
+  font-size: 4.8;
+}
+.preguntasFrecuentes .preguntasFrecuentes__articulo2 p {
+  font: 2rem;
+}/*# sourceMappingURL=main.css.map */

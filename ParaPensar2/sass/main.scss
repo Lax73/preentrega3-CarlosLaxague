@@ -1,0 +1,47 @@
+//vars
+$fuenteHeading: 'Montserrat', sans-serif;
+$fuenteParrafo: 'Open sans', sans-serif;
+$colorPrincipal: #B38C80;
+$colorBlanco: #ffffff;
+$colorNegro: #000000;
+$colorAzul: #00EBE0;
+$colorMarron: #614100;
+$colorFacebook: #3b5999;
+$colorInstagram: #e4405f;
+$colorTwitter: #55acee;
+$colorWhatsapp: #25D366;
+
+.preguntasFrecuentes {
+    text-align: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 2rem;
+
+    & &__articulo1 {
+        background-color: #e4405f;
+        border-style: none;
+        border-radius: 2rem;
+        h2 {
+            font-size: 4.8rem;
+            color: var($colorInstagram);
+        }
+        p {
+            font-size: 2rem;
+            color: var($colorTwitter);
+        }
+    }
+
+    & &__articulo2 {
+        background-color: #55acee;
+        border-style: none;
+        border-radius: 2rem;
+        h2 {
+            font-size: 4.8;
+        }
+        p {
+            font: 2rem;
+        }
+    }
+}
